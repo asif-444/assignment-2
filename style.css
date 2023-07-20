@@ -41,8 +41,8 @@ nav>ul {
 .banner {
     display: flex;
     justify-content: space-between;
-    background-image:url(/images/Group\ 14.png);
-    background-repeat:inherit;
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: inherit;
 }
 
 .banner-image {
@@ -54,8 +54,8 @@ nav>ul {
 .banner1 {
     margin-left: 220px;
     padding-top: 180px;
-    
-    
+
+
 }
 
 .b1p1 {
@@ -67,7 +67,7 @@ nav>ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     font-weight: bolder;
-    color: mediumslateblue;
+    color: rgb(188, 2, 198);
 }
 
 .b1p2 {
@@ -99,54 +99,84 @@ nav>ul {
     border-radius: 45px;
 }
 
-.dysneyland1{
+.dysneyland1 {
     text-align: center;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 100px;
 }
 
-.dysney-color{
+.dysney-color {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: purple;
 }
 
-.dysneyland2{
+.dysneyland2 {
     text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 15px;
 }
 
-.pix{
+.pix {
     display: flex;
     gap: 20px;
     justify-content: space-around;
     padding: 15px 50px;
 }
 
-.undertext{
+.undertext {
     text-align: center;
 }
 
+.instant-play {
+    color: purple;
+}
+
+.knight-rider {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.instant1 {
+    padding-top: 200px;
+}
+
+.instant1>h6 {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+.arcade-games{
+    background-color: rgb(243, 233, 222);
+    height: 300px;
+    width: auto;
+    /* justify-content: center; */
+    padding: 50px;
+    /* align-items:center ; */
+    text-align: justify;
+}
 
 
+.b1 {
+    width: 200px;
+    height: 55px;
+    border: none;
+    border-radius: 25px;
+}
 
-
-
-
-
-
-
-
-
-footer {
-    background-color: #0B0223;
-    color: aliceblue;
-    margin: 0;
-    padding: 0;
-
+footer{
+margin: 0;
+padding: 0;
+background-color: #1b0138;
+color: azure;
 }
 
 .footer-1 {
@@ -186,4 +216,20 @@ footer {
 .copyright {
     text-align: center;
     padding-bottom: 100px;
+}
+
+
+@media screen and (max-width: 576px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
