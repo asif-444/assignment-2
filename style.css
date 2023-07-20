@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: 15px 220px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 {
+    display: flex;
+    gap: 20px;
+    font-size: 40px;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.follow {
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 13px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.unfollow {
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-image:url(/images/Group\ 14.png);
+    background-repeat:inherit;
+}
+
+.banner-image {
+    width: auto;
+    height: auto;
+    padding-right: 220px;
+}
+
+.banner1 {
+    margin-left: 220px;
+    padding-top: 180px;
+    
+    
+}
+
+.b1p1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner1>h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: mediumslateblue;
+}
+
+.b1p2 {
+    padding: 10px 15px;
+}
+
+.button {
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.sign-in {
+    height: 55px;
+    width: 145px;
+    font-size: medium;
+    color: azure;
+    background-color: rgb(239, 7, 100);
+    border: none;
+    border-radius: 45px;
+}
+
+.go-rogue {
+    height: 55px;
+    width: 145px;
+    font-size: medium;
+    color: azure;
+    background-color: rgb(7, 220, 239);
+    border: none;
+    border-radius: 45px;
+}
+
+.dysneyland1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 100px;
+}
+
+.dysney-color{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: purple;
+}
+
+.dysneyland2{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+.pix{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 15px 50px;
+}
+
+.undertext{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #0B0223;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.pink-g {
+    color: #FF42A5;
+}
+
+.footer-list-1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 350px;
+    padding-right: 350px;
+    font-size: 18px;
+}
+
+.footer-list-2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 13px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 100px;
+}
